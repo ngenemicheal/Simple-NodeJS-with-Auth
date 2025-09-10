@@ -1,0 +1,7 @@
+<%- include('../partials/header', {title: 'User Dashboard'}) %>
+    <body>
+        <h1>Welcome, <%= user.fullName %>!</h1>
+        <p><strong>Username:</strong> <%= user.username %></p>
+        <p><strong>Email:</strong> <%= user.email %></p>
+        <a href="/logout">Logout</a>
+<%- include('../partials/footer') %>

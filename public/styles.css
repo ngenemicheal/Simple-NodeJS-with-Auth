@@ -1,0 +1,87 @@
+/* Reset some default styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background: #f4f6f8;
+    color: #333;
+    padding: 40px 20px;
+}
+
+.container {
+    max-width: 400px;
+    margin: auto;
+    background: #fff;
+    padding: 30px 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #22b21f; /* your green theme */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    padding: 12px 15px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    transition: border-color 0.2s;
+}
+
+input:focus {
+    border-color: #22b21f;
+    outline: none;
+}
+
+button {
+    padding: 12px;
+    background-color: #22b21f;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-weight: bold;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background-color: #1a9619;
+}
+
+a {
+    text-decoration: none;
+    color: #22b21f;
+    display: block;
+    text-align: center;
+    margin-top: 15px;
+}
+
+p {
+    margin-top: 10px;
+    text-align: center;
+    color: #555;
+}
+
+.error {
+    background: #ffe0e0;
+    color: #c40000;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    text-align: center;
+}
